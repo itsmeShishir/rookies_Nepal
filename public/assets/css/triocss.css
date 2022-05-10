@@ -1,0 +1,334 @@
+.icon-myaccount {
+    color: red;
+    font-size: 200px;
+}
+.myaccount {
+    height: 50vh;
+    box-sizing: border-box;
+    padding-top: 15vh;
+    width: 70vw;
+}
+.form-control:focus {
+    color: none;
+    background-color: none;
+    border-color: gray;
+    outline: none;
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0);
+}
+#scrollUp {
+    background: red;
+}
+.checkout-options {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+.checkout-options .circle {
+    border: 1.7px solid red;
+    border-radius: 50%;
+    width: 70px;
+    text-align: center;
+    height: 70px;
+    box-sizing: border-box;
+    margin: 0px 120px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px #b3b7b7;
+}
+
+.checkout-options .circle .icon {
+    font-size: 40px;
+}
+.icon-credit-card {
+    font-size: 35px !important;
+    padding-top: 2px !important;
+}
+@media (max-width: 600px) {
+    .checkout-options {
+        margin-left: 1vw !important;
+        margin-right: 1vw !important;
+    }
+    .checkout-options .circle {
+        border: 1.2px dotted red;
+        border-radius: 50%;
+        width: 40px;
+        text-align: center;
+        height: 40px;
+        box-sizing: border-box;
+        margin: 0px 0px;
+        padding: 10px;
+    }
+    .checkout-options .circle .icon {
+        font-size: 20px;
+    }
+    .icon-credit-card {
+        font-size: 15px !important;
+        padding-top: 2px !important;
+    }
+}
+
+.login {
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.login .login-card {
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 50vh;
+    padding: 20px 50px;
+    width: 350px;
+}
+.login .login-card .title {
+    text-align: center;
+    padding: 10px;
+}
+.login .login-card .sign-in-options {
+    display: flex;
+    justify-content: space-between;
+}
+.login .login-card .sign-in-options .btn {
+}
+.login .login-card .forgot-password {
+    padding: 20px;
+    text-align: center;
+}
+#login-form {
+    background: #c9d6ea;
+    border-radius: 10px;
+    margin-bottom: 20vh;
+    border: 0.1px dotted #000f0f41;
+    box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+#login-form input {
+    border-radius: 5px !important;
+}
+.login-with {
+    text-align: center;
+    padding: 15px 0;
+}
+.login-options {
+    display: flex;
+    height: 35px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    cursor: pointer;
+    align-items: center;
+}
+.login-options .option.google {
+    color: black;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 9px;
+    border-radius: 5px;
+    width: 49.5%;
+}
+.login-options .option.facebook {
+    color: white;
+    width: 49.5%;
+    background: #3b5998;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.login-btn {
+    color: #23a455 !important;
+}
+.fa-google {
+    background: conic-gradient(
+            from -45deg,
+            #ea4335 110deg,
+            #4285f4 90deg 180deg,
+            #34a853 180deg 270deg,
+            #fbbc05 270deg
+        )
+        73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.register-form {
+    border-radius: 5px;
+    margin-bottom: 20vh;
+    border: 0.1px solid #f8f9f9;
+    box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.2);
+    background: #c9d6ea;
+    color: black;
+}
+.register-form input {
+    border-radius: 5px !important;
+}
+.register-form input:active {
+    background: transparent !important;
+}
+.register-form input:focus {
+    background: transparent !important;
+}
+.register-input {
+    background: red;
+}
+input.register-checkbox {
+    width: 12px !important;
+    height: 12px !important;
+    padding-top: 2px !important;
+}
+.register-btn {
+    background: #23a455 !important;
+    color: white !important;
+    width: 100%;
+}
+
+.advertisement-area {
+    height: 90vh;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    top: 7vh;
+    left: 8vw;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.trio-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.custom-brand {
+    position: relative;
+    height: 25vh;
+    width: 20vw !important;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.custom-brand img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    object-fit: contain;
+    object-position: center;
+}
+.image-div {
+    margin-left: 5vw;
+    height: 50vh;
+    width: 30vw;
+    overflow: hidden;
+}
+.image-div img {
+    height: 50vh;
+    width: 30vw;
+}
+.header {
+    align-items: center;
+    padding: 0;
+    margin-top: -10px;
+}
+.custom-navbar {
+    background: black;
+    height: 40px;
+}
+@media only screen and (max-width: 400px) {
+    .custom-navbar {
+        height: 80px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .custom-navbar {
+        height: 80px;
+    }
+}
+
+/* for product detail page ko image view  */
+.product-image-view {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    z-index: 111111;
+    display: none;
+}
+.product-image-view .image-view-div {
+    height: 50vh;
+    height: 60vh;
+    border-radius: 5px;
+    width: 50vw;
+    width: 60vw;
+    overflow: hidden;
+}
+.product-image-view .image-view-div img {
+    width: 100%;
+    width: 60vw;
+    height: 60vh;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 5px;
+}
+.product-image-view .close {
+    position: absolute;
+    top: 15vh;
+    left: 80vw;
+    color: white;
+    z-index: 111111111111111;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.custom-old-price {
+    font-weight: normal;
+    font-size: 15px;
+}
+.custom-save-price {
+    font-size: 14px;
+    color: gray;
+}
+.custom-login-ads {
+    background: red;
+}
+.custom-login-ads img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.no-data-search {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no-data-search img {
+    height: 300px;
+}
+.validation-error {
+    color: red;
+    font-size: 12px;
+}
+@media (max-width: 990px) {
+    .image-div img {
+        width: 100%;
+        height: 100%;
+    }
+    .image-div{
+        width: 80vw;
+        height: 40vh;
+    }
+}

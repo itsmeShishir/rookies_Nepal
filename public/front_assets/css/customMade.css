@@ -1,0 +1,32 @@
+.logo {
+    height: 70px;
+}
+
+#top-nav {
+    background: #18AB96;
+    padding: 0px;
+}
+
+.text {
+    color: black;
+}
+
+.menu {
+    color: red;
+}
+
+.cart-img {
+    margin-left: -10vw;
+}
+
+.carousel-img {
+    width: 10px;
+    height: 100%;
+    ;
+}
+
+.advertisement {
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks: 
+    -export DEPLOYMPATH=/home/bibeklam/public_html/
+    -/bin/cp -R * $DEPLOYPATH

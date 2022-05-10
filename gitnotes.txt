@@ -1,0 +1,10 @@
+first ma pull garda chai 
+git pull origin master
+
+git status
+git add .
+git status 
+git commit -m "text message"
+git push origin master
+
+php artisan migrate:refresh --path=database/migrations/2020_08_19_090053_create_products_table.php 
